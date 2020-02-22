@@ -27,7 +27,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Team A"
+                    android:text="@string/team_a"
                     android:textSize="20sp"
                     android:layout_marginTop="16dp"/>
                 <TextView
@@ -37,19 +37,22 @@
                     android:textSize="40sp"
                     android:layout_marginTop="16dp"/>
                 <Button
+                    android:id="@+id/maxPointA"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="+3 points"
+                    android:text="@string/max_points"
                     android:layout_marginTop="16dp"/>
                 <Button
+                    android:id="@+id/minPointA"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="+2 points"
+                    android:text="@string/min_points"
                     android:layout_marginTop="16dp"/>
                 <Button
+                    android:id="@+id/averagePointA"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="free throw"
+                    android:text="@string/free_throw"
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"/>
 
@@ -68,7 +71,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Team B"
+                    android:text="@string/team_b"
                     android:textSize="20sp"
                     android:layout_marginTop="16dp"/>
                 <TextView
@@ -78,19 +81,22 @@
                     android:textSize="40sp"
                     android:layout_marginTop="16dp"/>
                 <Button
+                    android:id="@+id/maxPointB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="+3 points"
+                    android:text="@string/max_points"
                     android:layout_marginTop="16dp"/>
                 <Button
+                    android:id="@+id/minPointB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="+2 points"
+                    android:text="@string/min_points"
                     android:layout_marginTop="16dp"/>
                 <Button
+                    android:id="@+id/averagePointB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="free throw"
+                    android:text="@string/free_throw"
                     android:layout_marginTop="16dp"
                     android:layout_marginBottom="16dp"/>
 
@@ -100,7 +106,7 @@
             android:id="@+id/resetButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reset"
+            android:text="@string/reset"
             android:layout_marginBottom="32dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"/>
