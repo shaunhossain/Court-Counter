@@ -37,19 +37,19 @@
                     android:textSize="40sp"
                     android:layout_marginTop="16dp"/>
                 <Button
-                    android:id="@+id/maxPointA"
+                    android:id="@+id/maxPointAButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/max_points"
                     android:layout_marginTop="16dp"/>
                 <Button
-                    android:id="@+id/minPointA"
+                    android:id="@+id/minPointAButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/min_points"
                     android:layout_marginTop="16dp"/>
                 <Button
-                    android:id="@+id/averagePointA"
+                    android:id="@+id/averagePointAButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/free_throw"
@@ -81,19 +81,19 @@
                     android:textSize="40sp"
                     android:layout_marginTop="16dp"/>
                 <Button
-                    android:id="@+id/maxPointB"
+                    android:id="@+id/maxPointBButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/max_points"
                     android:layout_marginTop="16dp"/>
                 <Button
-                    android:id="@+id/minPointB"
+                    android:id="@+id/minPointBButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/min_points"
                     android:layout_marginTop="16dp"/>
                 <Button
-                    android:id="@+id/averagePointB"
+                    android:id="@+id/averagePointBButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/free_throw"
