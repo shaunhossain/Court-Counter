@@ -17,32 +17,49 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
         binding.scorePoints = scorePoints
 
-        //For team A button
-        binding.maxPointAButton.setOnClickListener{
-            AddMaxScoreA()
-        }
-        binding.minPointAButton.setOnClickListener{
-            AddMinScoreA()
-        }
-        binding.averagePointAButton.setOnClickListener{
-            AddAverageScoreA()
-        }
+        ScoringForTeamA()
 
-        //For team B button
-        binding.maxPointBButton.setOnClickListener {
-            AddMaxScoreB()
-        }
-        binding.minPointBButton.setOnClickListener {
-            AddMinScoreB()
-        }
-        binding.averagePointBButton.setOnClickListener {
-            AddAverageScoreB()
-        }
-
+        ScoringForTeamB()
         //Reset the score point
         binding.resetButton.setOnClickListener {
            ResetScore()
         }
+    }
+
+    private fun ScoringForTeamA(){
+        binding.apply {
+            //For team A button
+            binding.maxPointAButton.setOnClickListener{
+                AddMaxScoreA()
+            }
+            binding.minPointAButton.setOnClickListener{
+                AddMinScoreA()
+            }
+            binding.averagePointAButton.setOnClickListener{
+                AddAverageScoreA()
+            }
+
+            invalidateAll()
+        }
+    }
+
+    private fun ScoringForTeamB(){
+        binding.apply {
+            //For team B button
+            binding.maxPointBButton.setOnClickListener {
+                AddMaxScoreB()
+            }
+            binding.minPointBButton.setOnClickListener {
+                AddMinScoreB()
+            }
+            binding.averagePointBButton.setOnClickListener {
+                AddAverageScoreB()
+            }
+
+            invalidateAll()
+
+        }
+
     }
 
     //Function to add score for team A
